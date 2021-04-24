@@ -34,7 +34,7 @@ Sistema de login, cadastro e esqueci a senha feito utilizando o Firebase em um p
 
     ```cp .env```
 
-3. Acesse o notion para ter acesso aos valores das variaveis.
+3. Entre em contato para ter acesso aos valores das variaveis.
 
 4. Iniciando:
 
