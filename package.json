@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-and-firebase-authentication",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.10.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "firebase": "^7.24.0",
+    "firebase-admin": "^9.2.0",
+    "js-cookie": "^2.2.1",
+    "js-functions-essentials": "^1.1.4",
+    "next": "9.5.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-firebaseui": "^4.1.0",
+    "styled-components": "^5.2.0"
+  }
+}

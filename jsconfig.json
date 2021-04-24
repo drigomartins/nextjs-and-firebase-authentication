@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@/containers/*": [
+                "containers/*"
+            ],
+            "@/components/*": [
+                "components/*"
+            ],
+            "@/leadScreens/*": [
+                "screens/lead/*"
+            ],
+            "@/backOfficeScreens/*": [
+                "screens/backoffice/*"
+            ],
+            "@/screens/*": [
+                "screens/*"
+            ],
+            "@/utils/*": [
+                "utils/*"
+            ],
+            "@/styles/*": [
+                "styles/*"
+            ],
+            "@/svg/*": [
+                "assets/svg/*"
+            ],
+            "@/assets/*": [
+                "assets/*"
+            ]
+        }
+    }
+}

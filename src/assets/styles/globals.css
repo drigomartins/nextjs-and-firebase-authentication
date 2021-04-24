@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #F7F7FA;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background-color: #44A0DB;
+}
+.MuiButton-label{
+  font-family: 'Nunito';
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.firebaseui-container{
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+.firebaseui-card-content{
+  padding: 0 !important;
+}
+.firebaseui-idp-list {
+  list-style: none;
+  margin: 1em 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .firebaseui-idp-list {
+    flex-direction: column;
+  }
+}
+.firebaseui-list-item{
+  width: calc(50% - 5px);
+}
+.firebaseui-idp-button{
+  max-width: 100% !important;
+  border-radius: 22px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+}
+.firebaseui-idp-google{
+  border: 1px solid #CDCADE !important;
+  font-family: 'Nunito' !important;
+}
+.firebaseui-idp-facebook{
+  font-family: 'Nunito' !important;
+}
+@media screen and (max-width: 363px) {
+  .firebaseui-idp-button{
+    height: 70px !important;
+  }
+}
